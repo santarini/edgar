@@ -13,6 +13,7 @@ Link to 10K
 https://www.sec.gov/Archives/edgar/data/1652044/000165204418000027/goog10-qq22018.htm
 
 Link to XBRL
+
 https://www.sec.gov/Archives/edgar/data/1652044/000165204418000027/goog-20180630.xml
 
 ## Pseudo
