@@ -18,4 +18,5 @@ https://www.sec.gov/Archives/edgar/data/1652044/000165204418000027/goog-20180630
 ## Pseudo
 
 Request URL
+
 BS get back all <table>
