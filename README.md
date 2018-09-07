@@ -21,3 +21,5 @@ https://www.sec.gov/Archives/edgar/data/1652044/000165204418000027/goog-20180630
 Request URL
 
 BS get back all <table>
+
+https://www.codeproject.com/Articles/1227765/Parsing-XBRL-with-Python
