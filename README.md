@@ -16,14 +16,13 @@ Link to XBRL
 
 https://www.sec.gov/Archives/edgar/data/1652044/000165204418000027/goog-20180630.xml
 
-## Pseudo
-
-Request URL
-
-BS get back all <table>
 
 https://www.codeproject.com/Articles/1227765/Parsing-XBRL-with-Python
 
 List of CIKs (irrelevant but kind of a cool find)
 
 https://www.sec.gov/Archives/edgar/cik-lookup-data.txt
+
+List of XBRL Tags
+
+http://www.xbrlsite.com/LinkedData/BrowseObjectsByType_HTML.aspx?Type=%5BConcept%5D&Submit=Submit
