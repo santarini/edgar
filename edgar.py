@@ -1,18 +1,14 @@
-#! python 3
-#from xbrl import XBRLParser, GAAP, GAAPSerializer
+from bs4 import BeautifulSoup
 import requests
-#from xml.etree import ElementTree
-import bs4 as bs
+import sys
 
-response = requests.get('https://www.sec.gov/Archives/edgar/data/1652044/000165204418000027/goog-20180630.xml')
-edgar_str = response.text
+# Obtain XBRL text from document
+xbrl_resp = requests.get('https://www.sec.gov/Archives/edgar/data/1652044/000165204418000027/goog-20180630.xml')
+xbrl_str = xbrl_resp.text
 
-print(edgar_str)
-
-
-##soup = bs.BeautifulSoup(response.text, 'lxml')
-##yearTable = soup.find('dei:DocumentFiscalPeriodFocus')
-##print(yearTable)
-### contextRef
-#xbrl_parser = XBRLParser()
-#xbrl = xbrl_parser.parse(file(response))
+# Find and print stockholder's equity
+soup = BeautifulSoup(xbrl_str, 'lxml')
+tag_list = soup.find_all()
+for tag in tag_list:
+    if tag.name == 'us-gaap:stockholdersequity':
+        print("Stockholder's equity: " + tag.text)
