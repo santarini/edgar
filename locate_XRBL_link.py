@@ -3,12 +3,12 @@ import requests
 import sys
 
 # Company Data and Document Type
-cik = '0001652044'
+ticker = 'msft'
 typeQuerry = '10-K'
 
 # Obtain HTML for search page
 baseURL = "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK={}&type={}"
-response = requests.get(baseURL.format(cik, typeQuerry))
+response = requests.get(baseURL.format(ticker, typeQuerry))
 responseText = response.text
 
 # Find filing detail link
