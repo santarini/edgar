@@ -8,7 +8,8 @@ responseText = response.text
 
 # Find and print stockholder's equity
 soup = BeautifulSoup(responseText, 'lxml')
-tagList = soup.find_all()
+tagList = soup.findAll()
 for tag in tagList:
     if tag.name == 'us-gaap:stockholdersequity':
         print("Stockholder's equity: " + tag.text)
+        #print("Stockholder's equity: " + tag["contextRef"])
