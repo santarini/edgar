@@ -24,6 +24,6 @@ BS get back all <table>
 
 https://www.codeproject.com/Articles/1227765/Parsing-XBRL-with-Python
 
-List of CIKs
+List of CIKs (irrelevant but kind of a cool find)
 
 https://www.sec.gov/Archives/edgar/cik-lookup-data.txt
