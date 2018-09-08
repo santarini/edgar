@@ -4,7 +4,7 @@ Link to company search
 
 https://www.sec.gov/cgi-bin/browse-edgar?CIK=goog&owner=exclude&action=getcompany
 
-Link to all 10
+Link to all "10" search querry
 
 https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001652044&type=10&dateb=&owner=exclude&count=40
 
