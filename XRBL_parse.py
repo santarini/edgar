@@ -12,4 +12,4 @@ tagList = soup.findAll()
 for tag in tagList:
     if tag.name == 'us-gaap:stockholdersequity':
         print("Stockholder's equity: " + tag.text)
-        #print("Stockholder's equity: " + tag["contextRef"])
+        print("Context Ref: " + str(tag.get('contextref')))
